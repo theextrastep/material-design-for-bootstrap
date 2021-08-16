@@ -1,0 +1,280 @@
+.d-flex{
+    font-size: 25px;
+}
+.me-4{
+    margin: 8px;
+}
+body{
+    /* background-image: linear-gradient(rgb(40, 199, 101),rgb(45, 113, 214),rgb(40, 199, 101),rgb(45, 113, 214),rgb(40, 199, 101),rgb(45, 113, 214)); */
+    background-image: linear-gradient(#414044,#379683);
+    font-family: 'Barlow Condensed', sans-serif !important;
+    color: white !important;
+}
+
+ #myVideo {
+  position: fixed; 
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+   
+} 
+
+
+#name{
+    text-shadow: 2px 2px 3px white ;
+    
+}
+
+/* css for articles start */
+  
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: #f75f76;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#a1:hover{
+  background-color: white;
+} 
+#a2:hover{
+  background-color: white;
+} 
+#a3:hover{
+  background-color: white;
+} 
+#a4:hover{
+  background-color: white;
+} 
+#a5:hover{
+  background-color: white;
+} 
+#a6:hover{
+  background-color: white;
+} 
+
+.card_content {
+  padding: 1rem;
+  /* background: linear-gradient(to bottom left , #EF8D9C 40%, #FFC39E 100%); */
+  background: linear-gradient(to bottom , #f75f76 40%, #FFC39E 100%);
+
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* css for articles end */
+
+ /* css for contact us */
+
+ .headerText {
+  color: #fff;
+}
+.headerText h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact {
+  position: relative;
+  padding: 100px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?cs=srgb&dl=astronomy-astrophotography-colors-755726.jpg&fm=jpg) no-repeat center center/cover;
+}
+
+.contact form {
+  position: relative;
+  z-index: 1000;
+}
+
+.contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  height: 50px;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.contact .form-control:focus,
+.contact .form-control:hover {
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: none;
+}
+
+.contact textarea {
+  min-height: 100px;
+}
+
+.contact label {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.btnD1 {
+  border: 2px solid black;
+  color: #fff !important;
+  background: whitesmoke;
+  border-radius: 50px;
+  padding: 15px 50px;
+  font-size: 1.15rem;
+  outline: none;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.btnD1:hover {
+  background: #fff;
+  color: #000 !important;
+}
+
+.contact:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  /* background: linear-gradient(#000, transparent); */
+}
+
+.contact:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  /* background: linear-gradient(360deg, #000, transparent); */
+}
+
+    /* css for contact us end */
+
+    /* css for footer start */
+
+#fb:hover{
+  font-size: x-large;
+}
+#tw:hover{
+  font-size: x-large;
+}
+#go:hover{
+  font-size: x-large;
+}
+#ln:hover{
+  font-size: x-large;
+}
+#in:hover{
+  font-size: x-large;
+}
+
+    /* css for footer end */
